@@ -6,9 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check-i18n": "node scripts/verify-i18n.js"
   },
   "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/cli": "^8.5.3",
+    "@capacitor/core": "^8.5.3",
+    "@google/genai": "^2.30.0",
+    "@supabase/supabase-js": "^2.117.3",
     "lucide-react": "^1.52.0",
     "next": "16.4.0",
     "react": "19.3.0",
